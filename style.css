@@ -1,0 +1,127 @@
+* {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    
+}
+
+ nav, li {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+    
+
+}
+
+header > img{
+    width: 200px;
+    height: 100px;
+    
+}
+
+.portada {
+    
+    background-image: url(FondoAnimalCrossing.jpg);
+    background-size: cover;
+    padding: 120px;
+
+}
+
+h1 {
+    color: purple;
+    background-color: rgb(229, 209, 247);
+    border-radius: 15px;
+    font-size: xx-large;
+    display: inline-block;
+    align-content: center;
+}
+
+.portada > p {
+    color: green;
+    background-color: rgb(212, 241, 212);
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    
+}
+
+.juegos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.juego {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid rgb(146, 135, 135);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.juego > h2 {
+    color: black;
+}
+
+.juego > img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.juego > p {
+    color: black;
+    
+}
+
+.juego > button {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 0;
+    border: transparent;
+    font-size: small;
+    
+}
+
+footer > li{
+    color: black;
+    width: 100%;
+
+}
+
+footer > img {
+    width: 100px;
+}
+
+
+
+
+
